@@ -8,9 +8,11 @@ function convertToFahrenheit(celciusValue){
 const recordedFahrenheitTemperature = convertToFahrenheit(100)
 console.log(recordedFahrenheitTemperature)
 
+// Conversion from Fahrenheit to Celcius
 function convertToCelcius(fahreheitValue){
     return 5/9 * (fahreheitValue - 32)
 }
 
 const recordedCelciusTemperature = convertToCelcius(212)
 console.log(recordedCelciusTemperature) // 100
+
