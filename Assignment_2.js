@@ -16,3 +16,16 @@ function convertToCelcius(fahreheitValue){
 const recordedCelciusTemperature = convertToCelcius(212)
 console.log(recordedCelciusTemperature) // 100
 
+
+
+// If Else Function For Both Temperatures
+function convertTemperatureTo(temperature, value){
+    if (temperature === "celcius"){
+        return 5/9 * (value - 32)
+    } else {
+        return (1.8 * value) + 32
+    }
+}
+
+const celcuisRecording = convertTemperatureTo("celcius", 212)
+console.log(celcuisRecording)
