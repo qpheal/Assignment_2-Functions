@@ -7,3 +7,10 @@ function convertToFahrenheit(celciusValue){
 
 const recordedFahrenheitTemperature = convertToFahrenheit(100)
 console.log(recordedFahrenheitTemperature) //212
+
+function convertToCelcius(fahreheitValue){
+    return 5/9(fahreheitValue - 32)
+}
+
+const recordedCelciusTemperature = convertToCelcius(212)
+console.log(recordedCelciusTemperature)
